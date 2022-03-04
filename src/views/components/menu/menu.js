@@ -122,8 +122,7 @@ export default class Menu extends React.Component {
           onClose={this.handleClose}
           disableBackdropTransition={!iOS}
           disableDiscovery={iOS}
-          anchor='top'
-        >
+          anchor='top'>
           <MenuSections />
         </SwipeableDrawer>
         <SpeedDial
@@ -136,11 +135,10 @@ export default class Menu extends React.Component {
           icon={
             <img
               alt='Nano is feeless, instant, and green / energy efficient digital money (cryptocurrency)'
-              src='/resources/nano+circle.svg'
+              src='/resources/symbol-white.svg'
             />
           }
-          openIcon={<CloseIcon />}
-        >
+          openIcon={<CloseIcon />}>
           {!isHome && (
             <SpeedDialAction
               icon={<HomeIcon />}
