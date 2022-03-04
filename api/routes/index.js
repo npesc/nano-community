@@ -6,7 +6,6 @@ const network = require('./network')
 const node = require('./node')
 const nanodb = require('./nanodb')
 const github = require('./github')
-const issues = require('./issues')
 const representatives = require('./representatives')
 const weight = require('./weight')
 
@@ -19,7 +18,6 @@ module.exports = {
   node,
   nanodb,
   github,
-  issues,
   representatives,
   weight
 }

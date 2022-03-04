@@ -77,6 +77,7 @@ function MenuSections() {
           <Link to='/contributing'>Contributing</Link>
           <Link to='/community'>Discussions</Link>
           <Link to='/support'>Support</Link>
+          <Link to='/donate'>Donate</Link>
         </div>
       </div>
       <div className='menu__section'>
